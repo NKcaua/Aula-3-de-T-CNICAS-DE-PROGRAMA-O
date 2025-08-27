@@ -1,0 +1,5 @@
+soma = 0
+for i in range(5):
+    num = float(input(f"Digite o {i+1}º número: "))
+    soma += num
+print("A soma total é:", soma)
